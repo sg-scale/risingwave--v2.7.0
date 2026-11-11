@@ -89,7 +89,7 @@ workspace-hack = { path = "../workspace-hack" }
 
 [target.'cfg(target_os = "linux")'.dependencies]
 libc = "0.2"
-nix = { version = "0.30", features = ["fs", "mman"] }
+nix = { version = "0.31", features = ["fs", "mman"] }
 procfs = { version = "0.18", default-features = false }
 
 [target.'cfg(target_os = "macos")'.dependencies]
