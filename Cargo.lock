@@ -1921,7 +1921,7 @@ dependencies = [
  "clang-sys",
  "itertools 0.13.0",
  "log",
- "prettyplease 0.2.15",
+ "prettyplease 0.2.37",
  "proc-macro2",
  "quote",
  "regex",
@@ -8005,7 +8005,7 @@ version = "0.5.0+0.12.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f271a476bbaa9d2139e1e1a5beb869c6119e805a0b67ad2b2857e4a8785b111a"
 dependencies = [
- "prettyplease 0.2.15",
+ "prettyplease 0.2.37",
  "proc-macro2",
  "prost-build 0.13.4",
  "quote",
@@ -9993,12 +9993,22 @@ dependencies = [
 
 [[package]]
 name = "prettyplease"
-version = "0.2.15"
+version = "0.2.37"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ae005bd773ab59b4725093fd7df83fd7892f7d8eafb48dbd7de6e024e4215f9d"
+checksum = "479ca8adacdd7ce8f1fb39ce9ecccbfe93a3f1344b3d0d97f20bc0196208f62b"
 dependencies = [
  "proc-macro2",
  "syn 2.0.107",
+]
+
+[[package]]
+name = "prettyplease"
+version = "0.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2bfe0f4c752e450fc2faf62654f1c134747922825d5b04ca717b8874f41a40c0"
+dependencies = [
+ "proc-macro2",
+ "syn 3.0.10",
 ]
 
 [[package]]
@@ -10259,7 +10269,7 @@ dependencies = [
  "multimap 0.10.0",
  "once_cell",
  "petgraph 0.6.5",
- "prettyplease 0.2.15",
+ "prettyplease 0.2.37",
  "prost 0.13.4",
  "prost-types 0.13.4",
  "regex",
@@ -11231,7 +11241,7 @@ version = "2.7.0"
 dependencies = [
  "expect-test",
  "indoc",
- "prettyplease 0.2.15",
+ "prettyplease 0.3.0",
  "proc-macro2",
  "quote",
  "syn 2.0.107",
@@ -15046,6 +15056,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "syn"
+version = "3.0.10"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "4ae9ccbea3a7b0b09443036490c8f34a8b1b760fd345e5c0dae0aac718faea79"
+dependencies = [
+ "proc-macro2",
+ "unicode-ident",
+]
+
+[[package]]
 name = "syn-mid"
 version = "0.5.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -15797,7 +15817,7 @@ version = "0.12.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9557ce109ea773b399c9b9e5dca39294110b74f1f342cb347a80d1fce8c26a11"
 dependencies = [
- "prettyplease 0.2.15",
+ "prettyplease 0.2.37",
  "proc-macro2",
  "prost-build 0.13.4",
  "prost-types 0.13.4",
