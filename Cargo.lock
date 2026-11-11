@@ -778,7 +778,7 @@ dependencies = [
  "asn1-rs-derive",
  "asn1-rs-impl",
  "displaydoc",
- "nom",
+ "nom 7.1.3",
  "num-traits",
  "rusticata-macros",
  "thiserror 1.0.63",
@@ -2322,7 +2322,7 @@ version = "0.6.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "6fac387a98bb7c37292057cffc56d62ecb629900026402633ae9160df93a8766"
 dependencies = [
- "nom",
+ "nom 7.1.3",
 ]
 
 [[package]]
@@ -4615,7 +4615,7 @@ checksum = "dbd676fbbab537128ef0278adb5576cf363cff6aa22a7b24effe97347cfab61e"
 dependencies = [
  "asn1-rs",
  "displaydoc",
- "nom",
+ "nom 7.1.3",
  "num-bigint",
  "num-traits",
  "rusticata-macros",
@@ -5282,7 +5282,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "74fef4569247a5f429d9156b9d0a2599914385dd189c539334c625d8099d90ab"
 dependencies = [
  "futures-core",
- "nom",
+ "nom 7.1.3",
  "pin-project-lite",
 ]
 
@@ -6390,7 +6390,7 @@ dependencies = [
  "base64 0.13.1",
  "byteorder",
  "flate2",
- "nom",
+ "nom 7.1.3",
  "num-traits",
 ]
 
@@ -7430,7 +7430,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "2df7f9fd9f64cf8f59e1a4a0753fe7d575a5b38d3d7ac5758dcee9357d83ef0a"
 dependencies = [
  "bytes",
- "nom",
+ "nom 7.1.3",
 ]
 
 [[package]]
@@ -7446,7 +7446,7 @@ dependencies = [
  "lazy_static",
  "lber",
  "log",
- "nom",
+ "nom 7.1.3",
  "percent-encoding",
  "ring 0.16.20",
  "rustls 0.21.11",
@@ -8499,6 +8499,15 @@ checksum = "d273983c5a657a70a3e8f2a01329822f3b8c8172b73826411a55751e404a0a4a"
 dependencies = [
  "memchr",
  "minimal-lexical",
+]
+
+[[package]]
+name = "nom"
+version = "8.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "df9761775871bdef83bee530e60050f7e54b1105350d6884eb0fb4f46c2f9405"
+dependencies = [
+ "memchr",
 ]
 
 [[package]]
@@ -10460,7 +10469,7 @@ dependencies = [
  "log",
  "lz4",
  "native-tls",
- "nom",
+ "nom 7.1.3",
  "oauth2",
  "openidconnect",
  "pem",
@@ -11091,7 +11100,7 @@ dependencies = [
  "futures-core",
  "futures-timer",
  "mime",
- "nom",
+ "nom 7.1.3",
  "pin-project-lite",
  "reqwest 0.12.15",
  "thiserror 1.0.63",
@@ -13309,7 +13318,7 @@ version = "4.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "faf0c4a6ece9950b9abdb62b1cfcf2a68b3b67a10ba445b3bb85be2a293d0632"
 dependencies = [
- "nom",
+ "nom 7.1.3",
 ]
 
 [[package]]
@@ -14548,12 +14557,14 @@ checksum = "3b9b39299b249ad65f3b7e96443bad61c02ca5cd3589f46cb6d610a0fd6c0d6a"
 
 [[package]]
 name = "sql-json-path"
-version = "0.1.1"
+version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "aa30c054bdeed860dd36c1e5a467ec4251d925246f7f57b55bfb77decc2e0ed4"
+checksum = "548cc341e51807f4cdb475e2c63048a96d9dfd60cd68549f77c56f9a269500a0"
 dependencies = [
+ "bigdecimal 0.4.8",
+ "chrono",
  "jsonbb",
- "nom",
+ "nom 8.0.0",
  "regex",
  "serde_json",
  "thiserror 2.0.12 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -14566,7 +14577,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "6b7b278788e7be4d0d29c0f39497a0eef3fba6bbc8e70d8bf7fde46edeaa9e85"
 dependencies = [
  "itertools 0.11.0",
- "nom",
+ "nom 7.1.3",
  "unicode_categories",
 ]
 
@@ -17659,7 +17670,7 @@ dependencies = [
  "data-encoding",
  "der-parser",
  "lazy_static",
- "nom",
+ "nom 7.1.3",
  "oid-registry",
  "rusticata-macros",
  "thiserror 1.0.63",
